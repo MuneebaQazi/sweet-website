@@ -1,0 +1,17 @@
+.hum{
+    background-color:  #5fcac7;
+    color: white;
+    border-radius: 50px;
+}
+.hum:hover{
+    background-color:  #5fcac7;
+  
+}
+.btno{
+    background-color: #5fcac7;
+    color: white;
+    border-radius: 50px;
+}
+.btno:hover{
+    background-color: pink;
+}

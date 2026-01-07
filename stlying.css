@@ -15,3 +15,10 @@
 .btno:hover{
     background-color: pink;
 }
+.para{
+   font-size: 30px;
+}
+.font{
+    /* font-weight: bold; */
+    font-size: 100px;
+}

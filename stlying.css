@@ -5,12 +5,17 @@
 }
 .hum:hover{
     background-color:  #5fcac7;
-  
+  color: white;
 }
 .btno{
     background-color: #5fcac7;
     color: white;
     border-radius: 50px;
+}
+.head{
+    font-weight: bold;
+    font-size: 50px;
+    color: #4b4342;
 }
 .btno:hover{
     background-color: pink;
@@ -22,3 +27,192 @@
     /* font-weight: bold; */
     font-size: 100px;
 }
+
+
+
+.main-section {
+  position: relative;
+  min-height: 100vh;
+  background-image: url("./images/silce\ cake.webp"); /* apni image lagaye */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Sky blue overlay */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(95, 202, 199);
+}
+
+.content-box {
+  position: relative;
+  background: transparent;
+   border: 2px solid #fff; 
+  padding-left: 50px;
+  padding-right: 70px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  z-index: 1;
+}
+.content-box h1 {
+  padding: 0 20px;
+  white-space: nowrap;
+}
+
+.content-box img {
+  max-width: 120px;
+  margin-bottom: 15px;
+}
+
+.content-box p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.content-box button {
+  padding: 12px 25px;
+  border: none;
+  background: rgba(95, 202, 199);
+  color: #fff;
+  border: 2px solid;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.content-box button:hover {
+  background: #fff;
+  color: #4b4342;
+  border: none;
+}
+
+/* responsive */
+@media (max-width: 768px) {
+  .content-box {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-box {
+    padding: 20px;
+  }
+
+  .content-box p {
+    font-size: 14px;
+  }
+}
+
+
+.second-main{
+position: relative;
+  min-height: 100vh;
+  background-image: url("./images/pudding.jpg"); /* apni image lagaye */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.over {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 255, 255, 0.9)
+}
+.img2{
+    border-radius: 50%;
+    width: 30%;
+
+}
+.content-bar {
+  position: relative;
+  background: transparent;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  border-radius: 20px;
+  z-index: 1;
+}
+.img3{
+    background-color: transparent;
+    width: 30%;
+}
+
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;  
+}
+
+.bg-section {
+  position: relative;
+  background-image: url("./images/pudding.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(255, 182, 193, 0.7); 
+}
+
+.bg-section .container {
+  position: relative;
+  z-index: 2;
+}
+.color{
+  color: #fff;
+}
+
+
+   .main-div {
+      padding: 40px;
+    }
+    .heading {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .table-card-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .custom-table {
+      width: 60%;
+    }
+    .custom-card {
+      width: 30%;
+      min-width: 250px;
+    }
+    @media (max-width: 768px) {
+      .table-card-container {
+        flex-direction: column;
+        align-items: center;
+      }
+      .custom-table, .custom-card {
+        width: 100%;
+      }
+    }

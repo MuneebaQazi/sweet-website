@@ -223,3 +223,41 @@ position: relative;
       font-size: 50px ;
       font-weight: bold;
     }
+
+.youtube-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: 0px solid;
+  background-color: rgba(148, 142, 142, 0.938); 
+  color: white;        
+  border-radius: 50%;    
+  font-size: 25px;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.youtube-icon:hover {
+  transform: scale(1.1); 
+}
+.last-img{
+  position: relative;
+  min-height: 100vh;
+  background-image: url("./images/enjeer.jpg"); /* apni image lagaye */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.ovo{
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.007); 
+}
+.harm{
+  color: white;
+}

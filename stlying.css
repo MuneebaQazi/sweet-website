@@ -219,3 +219,7 @@ position: relative;
     .homo{
       color: green;
     }
+    .close{
+      font-size: 50px ;
+      font-weight: bold;
+    }

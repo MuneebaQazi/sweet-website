@@ -242,22 +242,132 @@ position: relative;
 .youtube-icon:hover {
   transform: scale(1.1); 
 }
-.last-img{
+.last-img {
   position: relative;
   min-height: 100vh;
-  background-image: url("./images/enjeer.jpg"); /* apni image lagaye */
+  background-image: linear-gradient(rgba(75, 67, 66, 0.341), rgba(0,0,0,0.3)), url("./images/enjeer.jpg");
+;
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 20px;
+  color: white;
 }
-.ovo{
+
+.ovo {
   position: absolute;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.007); 
+  background-color: rgba(75, 67, 66, 0.341); /* light black overlay */
+  z-index: 1;
 }
+
+.last-img-content {
+  position: relative;
+  z-index: 2; /* text overlay ke upar rahe */
+  text-align: center;
+}
+
 .harm{
   color: white;
 }
+.email{
+  gap: 30px;
+}
+
+.hard{
+  font-size: 50px;
+  font-weight: 500;
+
+}
+.box{
+  border: none;
+  border-radius: 40px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid;
+  border-color: #333;
+}
+.btn{
+  border: none;
+  border-radius: 30px;
+  border: 2px solid;
+  border-color:skyblue ;
+  background-color: rgb(66, 164, 203);
+  color: white;
+}
+.class{
+  font-size: 20px;
+}
+.social-icons {
+  display: flex;
+  gap: 15px; /* icons ke beech gap */
+}
+
+.icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* circle */
+  background-color: rgba(0,0,0,0.2); /* light background */
+  color: white;
+  font-size: 18px; /* icon size */
+  text-decoration: none;
+  transition: transform 0.2s, background-color 0.2s;
+}
+
+.icon:hover {
+  transform: scale(1.2); /* hover zoom */
+  background-color: rgba(0,0,0,0.4); /* hover background */
+}
+
+/* Specific colors for Instagram & Twitter */
+.insta { background-color: rgba(148, 142, 142, 0.938); }  /* Instagram pink */
+.twitter { background-color: rgba(148, 142, 142, 0.938); } /* Twitter blue */
+
+
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  /* Left links */
+  .nav-links {
+    display: flex;
+    gap: 20px; /* gap between links */
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Middle logo section */
+  .logo-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-section img {
+    width: 60px; /* logo size */
+    height: 60px;
+    border-radius: 50%; /* round logo */
+    margin-bottom: 5px; /* gap between img and content */
+  }
+
+  /* Right side content */
+  .right-content {
+    color: white;
+    font-weight: bold;
+  }
